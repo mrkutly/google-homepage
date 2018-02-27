@@ -1,6 +1,11 @@
 body{
   font-family: arial;
   font-size: small;
+  margin-top: 23px;
+  margin-bottom: 23px;
+}
+header{
+  display: block;
 }
 center{display: block;
   text-align:center;
@@ -17,11 +22,13 @@ center{display: block;
   padding-bottom: 200px;
 }
 .rightfooter, .leftfooter{
-  padding-top: 200px;
+  margin-top: 75px;
+  padding-top: 109px;
 }
 .searchbar{
   display: block;
   text-align: center;
+  margin-bottom:44px
 }
 .logo{
   display: block;
@@ -29,6 +36,11 @@ center{display: block;
   margin-right: auto;
   width: 50%;
   padding-top: 109px;
+  padding-bottom:10px;
+}
+#logo{
+  margin-top:80px;
+  padding-top: 30px;
 }
 #gs, #lucky{
   text-align: center;
@@ -44,4 +56,13 @@ center{display: block;
 #sbi{
   width: 400px;
   height: 20px;
+}
+#ad, #settings, #terms, #about, #gmail{
+  padding-right: 25px;
+}
+#privacy, #images{
+  margin-right: 20px;
+}
+#ad, #about{
+  margin-left: 20px;
 }
